@@ -1,0 +1,18 @@
+kiểm tra 1: kết quả cho ra là 3252 . vì y =2 ,và void ham a gán x = 3, và được hiển thị ra màn hình: printf("%d", x); 
+printf("%d", y); . và tiếp tục void ham a gán x = 5 và được hiển thi ra màn hình: printf("%d", x);void ham_b(){printf("%d", y); cho nên kết quả ra là 3252.
+
+khiểm tra 2:
+câu a,
+Khái niệm và cú pháp trong ngôn ngữ C
+Biến là đại lượng dùng để lưu trữ dữ liệu, có thể thay đổi giá trị của biến trong khi thực hiện chương trình.
+cú pháp: Khai báo biến : var <tên biến> : <kiểu dữ liệu của biến>;
+câu b,
+trình bày khái niệm biến toàn cục và biến cục bộ trong ngôn ngữ C
+- biến toàn cục: Các biến được khai báo ở bên ngoài tất cả các hàm thì được gọi là biến toàn cục (external  or global variable). Các biến toàn cục có thể truy xuất và sử dụng ở mọi hàm trong chương trình. Biến toàn cục cũng tồn tại cho tới khi chương trình kết thúc
+- biến cục bộ: Các biến được khai báo trong 1 khối code thuộc lớp lưu trữ tự động (automatic or local variable) – hay chính là các biến cục bộ. Các biến cục bộ này chỉ tồn tại và chỉ có thể sử dụng bên trong khối code đó trong khi khối code đó đang thực thi.
+câu c,
+trình bày khái niệm và phân loại hàm trong ngôn ngữ C
+- khái niệm: hà mlaf 1 khối lệnh( nhiều lệnh) thực hiện một nhiệm vụ cụ thể nào đó( tính tổng, hiển thị thông báo đến người dùng...). ngoài ra hàm là 1 sự chia nhỏ của chương trình
+- phân loại hàm: hàm có 2 loại: hàm thư viện chuẩn(standard library functions) là các ham được xây dựng sẵn(build-in functions)trong ngôn ngư C như hàm scanf, printf... các hà mnafy được định nghĩa trong các tập tin có phần mở rộng .h ,.. các tập tin này phải được gộp vào chương trình thông qua chỉ định #include
+                                hàm do người dùng định nghĩa(user-defined functions): định nghĩa theo nhu cầu ngươi dùng.
+                                
